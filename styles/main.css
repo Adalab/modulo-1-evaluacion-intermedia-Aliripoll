@@ -62,13 +62,18 @@
     .header-logo {
         position: relative;
         padding-left: 30px;  
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
-    .ul-list {
+    .header-ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
         padding-right: 30px;
     }
+
     .main-title {
         font-size: 40px;
     }
-
 }
